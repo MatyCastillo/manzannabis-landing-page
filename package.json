@@ -1,7 +1,7 @@
 {
-  "name": "landingpage-react-template",
+  "name": "manzanabis-landingpage",
   "private": true,
-  "homepage": "https://matycastillo.github.io/manzannabis-landing-page/docs",
+  "homepage": "https://matycastillo.github.io/manzannabis-landing-page",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

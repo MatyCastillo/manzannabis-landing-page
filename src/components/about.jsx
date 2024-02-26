@@ -9,7 +9,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
             <div className="zoom-container">
-            <img src="img/nosotros-manzannabis.jpg" className="img-responsive zoomable-image" alt=""/>{" "}
+            <img src="./img/nosotros-manzannabis.jpg" className="img-responsive zoomable-image" alt=""/>{" "}
             </div>
           </div>
           <div className="col-xs-12 col-md-6">
