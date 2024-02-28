@@ -9,7 +9,7 @@
     "paragraph": "Desarrollamos y optimizamos procesos para compartir el amor por una planta curativa. ¡Cupos limitados para formar parte de una comunidad inclusiva y sin prejuicios!"
   },
   "About": {
-    "paragraph": "Manzanabis es un Club Medicinal de Cultivadores Solidarios en Red. Donde nos encargamos de la investigación, el desarrollo y la optimización de todos los procesos. Bajo el marco legal de la Ley de Cannabis Medicinal  (Ley N°27.350 ). RECORDÁ QUE NO COMERCIALIZAMOS CANNABIS, se cobra por los materiales utilizados, el tiempo empleado, etc. Pensamos en un lugar para la comunidad, compartir el amor por una planta curativa. Personas de todas las etnias y orígenes giran alrededor del imán de la CULTURA. La fuerza central de todo, con los brazos abiertos, sin prejuicios, ni expectativas... Desde ahí es.",
+    "paragraph": "Manzannabis es un Club Medicinal de Cultivadores Solidarios en Red. Donde nos encargamos de la investigación, el desarrollo y la optimización de todos los procesos. Bajo el marco legal de la Ley de Cannabis Medicinal  (Ley N°27.350 ). RECORDÁ QUE NO COMERCIALIZAMOS CANNABIS, se cobra por los materiales utilizados, el tiempo empleado, etc. Pensamos en un lugar para la comunidad, compartir el amor por una planta curativa. Personas de todas las etnias y orígenes giran alrededor del imán de la CULTURA. La fuerza central de todo, con los brazos abiertos, sin prejuicios, ni expectativas... Desde ahí es.",
     "Why": [
       "Sala de cultivo vegetativo",
       "Salas de floración",
@@ -18,6 +18,37 @@
     ],
     "Why2": ["Salas de madres y clonado", "Acopio y almacenamientor"]
   },
+  "InfoTabs": [
+    {
+      "title": "¿Qué es REPROCANN?",
+      "paragraph": "El Programa procura mejorar el acceso a quienes tienen indicación médica basada en la evidencia científica disponible, a un producto como especialidad medicinal; con formulación magistral; o que se origine en un cultivo controlado de la planta de cannabis realizado por los pacientes para sí, por terceros, o por una red de pacientes asistidos por Organizaciones No Gubernamentales (ONG) autorizadas por el Programa a través del Registro del Programa de Cannabis (REPROCANN).",
+      "list": [],
+      "list2": []
+    },
+    {
+      "title": "¿No tenés REPROCANN?",
+      "paragraph": "La matrícula de ingreso incluye:",
+      "list": [
+        "Asesoramiento administrativo para completar los formularios REPROCANN",
+        "Entrevista con el Doctor",
+        " Vinculación PACIENTE/CLUB"
+      ],
+      "list2": [
+        " Contrato de Cesión de Parcela",
+        "Torre de guardado de producto"
+      ]
+    },
+    {
+      "title": "¿Ya tenés REPROCANN?",
+      "paragraph": "La matrícula de ingreso incluye:",
+      "list": [
+        " Vinculación PACIENTE/CLUB",
+        " Contrato de Cesión de Parcela",
+        "Torre de guardado de producto"
+      ],
+      "list2": []
+    }
+  ],
   "Gallery": [
     {
       "title": "Project Title",
@@ -157,7 +188,7 @@
     "email": "alest04@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
-    "instagram": "instagram.com"
+    "instagram": "https://www.instagram.com/manzannabis.club"
   },
   "Features": [
     {

@@ -3,6 +3,7 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
+import { InfoTabs } from "./components/infoTabs";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
@@ -22,13 +23,14 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-  console.log('data',landingPageData)
+  console.log("data", landingPageData);
   return (
     <div>
       <Navigation data={landingPageData.Navigation} />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Features data={landingPageData.Features} />
+      <InfoTabs data={landingPageData.InfoTabs} />
       {/* <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />

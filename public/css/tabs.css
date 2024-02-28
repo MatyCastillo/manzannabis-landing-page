@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "IBMPlexMono-Thin"; /* Nombre de la fuente */
+  src: url("../fonts/fonts/IBMPlexMono-Thin.ttf") format("truetype"); /* Ruta a tu archivo de fuente */
+  /* Puedes incluir otros formatos de fuentes aquí para una mayor compatibilidad con diferentes navegadores */
+}
+
+@font-face {
+  font-family: "Roboto"; /* Nombre de la fuente */
+  src: url("../fonts/fonts/Roboto-Regular.ttf") format("truetype"); /* Ruta a tu archivo de fuente */
+  /* Puedes incluir otros formatos de fuentes aquí para una mayor compatibilidad con diferentes navegadores */
+}
+
+:root {
+  --color-primario: #106a39; /* Define el color primario */
+  --color-secundario: #c5ed36; /* Define el color secundario */
+  --color-fondoOscuro: #2b2b2b; /* Define el color */
+  --color-blanco: #fff;
+}
+
+.react-tabs {
+  /* -webkit-tap-highlight-color: transparent; */
+
+  border-radius: 5px;
+}
+
+.react-tabs__tab-list {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  font-family: "IBMPlexMono-Thin";
+  font-weight: 800;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  font-family: "IBMPlexMono-Thin";
+  font-weight: 800;
+  background: var(--color-primario);
+  border-color: var(--color-primario);
+  color: var(--color-blanco);
+  border-radius: 5px;
+  bottom: -7px;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+}
+
+.react-tabs__tab-panel {
+  font-family: "Roboto", sans-serif;
+  display: none;
+  display: none;
+  background-color: var(--color-primario);
+  border-radius: 5px;
+  height: 200px;
+  padding: 15px;
+  line-height: 2; 
+}
+@media (max-width: 768px) {
+  .react-tabs__tab-panel {
+    height: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .react-tabs__tab-panel {
+    height: 325px;
+  }
+}
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.about-text li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 15px 0 0 0;
+}
+.about-text li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: var(--color-secundario);
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
