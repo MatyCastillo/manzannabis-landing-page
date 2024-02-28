@@ -275,19 +275,19 @@ a:focus,
 }
 
 @keyframes blurFadeIn {
-    0% {
-        text-shadow: 0 0 40px rgba(255, 255, 255, 1);
-        opacity: 0;
-    }
-    50% {
-        text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-        opacity: 0.5;
-    }
-    100% {
-        text-shadow: 0 0 0 rgba(255, 255, 255, 0);
-        opacity: 1;
-        text-shadow: 0 0 10px #ffffff;
-    }
+  0% {
+    text-shadow: 0 0 40px rgba(255, 255, 255, 1);
+    opacity: 0;
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+  }
+  100% {
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    opacity: 1;
+    text-shadow: 0 0 10px #ffffff;
+  }
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -442,6 +442,74 @@ header .intro-text {
 }
 #infoTabs .info-tabs-content {
   font-family: "Roboto", sans-serif;
+}
+/* InfoFold Section */
+#info-fold {
+  background-color: var(--color-fondoOscuro);
+  padding: 100px 0;
+}
+#info-fold h3 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+#info-fold h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#info-fold h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(
+    to right,
+    var(--color-primario) 0%,
+    var(--color-primario) 100%
+  );
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+  box-shadow: 1px 2px 10px var(--color-primario);
+}
+#info-fold .info-fold-text li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+}
+#info-fold .info-fold-text li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: var(--color-secundario);
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#info-fold img {
+  min-width: 550px;
+  max-height: 380px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#info-fold p {
+  line-height: 24px;
+  margin: 30px 0;
+}
+#info-fold .panel-heading {
+  background: var(--color-primario);
+  color: var(--color-blanco);
+}
+#info-fold .panel-title > a {
+  font-weight: 600;
+}
+#info-fold  a:hover, a:focus {
+  text-decoration: none;
+  color: var(--color-secundario);
 }
 /* About Section */
 #about {
@@ -743,6 +811,11 @@ label {
 }
 #contact .contact-item {
   margin: 20px 0;
+}
+#contact .contact-item h3 {
+  font-family: "IBMPlexMono-Thin", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
