@@ -194,34 +194,48 @@
     {
       "img": "img/features/01.jpg",
       "icon": "fa fa-comments-o",
-      "title": "El Patrón (RQS)",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "El Patrón (Royal Queen Seeds)",
+      "text": "",
+      "list": [
+        "Aspecto: Compacto",
+        "Sabor: Herbal, Pimienta",
+        "Efecto: Colocón, Potente"
+      ],
+      "imgData": [22, 3, 80, 20]
     },
     {
       "img": "img/features/02.jpg",
       "icon": "fa fa-bullhorn",
-      "title": "Criminal Plus (BSF)",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Criminal Plus (Ripper Seeds)",
+      "text": "",
+      "list": [
+        "Aspecto: Compacto",
+        "Sabor: Vainilla, Afrutado",
+        "Efecto: Llevadero"
+      ],
+      "imgData": [19, 4, 80, 20]
     },
     {
       "img": "img/features/03.jpg",
       "icon": "fa fa-group",
-      "title": "Súper Lemon Haze (BSF)",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Súper Lemon Haze (BSF)",
+      "text": "",
+      "list": [
+        "Aspecto: Airoso",
+        "Sabor: Afrutado, Limón, Pomelo",
+        "Efecto: Euforizante"
+      ],
+      "imgData": [22, 3, 20, 80]
     }
   ],
   "InfoFold": [
     {
       "title": "Soporte Legal",
-      "paragraph": "Contamos con soporte y experiencia legal de la mano del Dr. HB, quien aparte de asesorarnos en cada paso y actualización, le brinda tranquilidad a cada persona registrada como paciente de nuestro Club. También se encarga de los contratos CLUB/PACIENTE. Tu medicación 100% LEGAL."
+      "paragraph": "Contamos con soporte y experiencia legal de la mano del Dr. Hernán Bianconi, quien aparte de asesorarnos en cada paso y actualización, le brinda tranquilidad a cada persona registrada como paciente de nuestro Club. También se encarga de los contratos CLUB/PACIENTE. Tu medicación 100% LEGAL."
     },
     {
       "title": "Normativa",
-      "paragraph": "En Manzanabis no te exigimos un mínimo mensual, pero sí tenés que ser un paciente ACTIVO. Ya que lo que hay que tener en cuenta es que los cupos de vinculaciones son limitados, por lo que no podemos tener registrada gente inactiva. En caso de inactividad se procederá a dar de baja al paciente y de necesitar una reincorporación se deberá cobrar los aranceles correspondientes."
-    },
-    {
-      "title": "Servicio Artesanal de Armado",
-      "paragraph": "Éste servicio se ofrece para esas personas que le agrada el producto terminado. Por cada gramo de producto salen 2 cigarros de marihuana. Los mismos, en el caso de ser de varias cepas, se envían con filtros identificadores."
+      "paragraph": "En Manzannabis no te exigimos un mínimo mensual, pero sí tenés que ser un paciente ACTIVO. Ya que lo que hay que tener en cuenta es que los cupos de vinculaciones son limitados, por lo que no podemos tener registrada gente inactiva. En caso de inactividad se procederá a dar de baja al paciente y de necesitar una reincorporación se deberá cobrar los aranceles correspondientes."
     },
     {
       "title": "Asociate",

@@ -24,7 +24,6 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-  console.log("data", landingPageData);
   return (
     <div>
       <Navigation data={landingPageData.Navigation} />

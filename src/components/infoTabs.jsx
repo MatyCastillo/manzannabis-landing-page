@@ -3,14 +3,13 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 export const InfoTabs = (props) => {
   const [tabIndex, setTabIndex] = useState(0);
-  console.log(props);
   return (
     <div id="infoTabs">
       <div className="container">
         <h2>REPROCANN</h2>
         <p>
           Cada paciente debe tener el <strong>REPROCANN</strong> listo para ser
-          vinculado o en trámite.
+          vinculado.
         </p>
         {props.data ? (
           <Tabs
