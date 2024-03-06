@@ -10,6 +10,7 @@
     "react": "^17.0.1",
     "react-countup": "^5.2.0",
     "react-dom": "^17.0.1",
+    "react-floating-whatsapp": "^4.0.5",
     "react-scripts": "^5.0.1",
     "react-tabs": "^4.3.0",
     "smooth-scroll": "^16.1.3"

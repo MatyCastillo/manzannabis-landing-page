@@ -461,8 +461,18 @@ header .intro-text {
 /* InfoTabs Section */
 
 #infoTabs {
-  background: var(--color-fondoOscuro);
+  background: url(../img/background.svg);
   padding: 100px 0;
+  animation: moveBackground 40s linear infinite; /* animación */
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0; /* posición inicial */
+  }
+  100% {
+    background-position: 100% 0; /* posición final */
+  }
 }
 #infoTabs h3 {
   color: var(--color-blanco);
@@ -510,8 +520,18 @@ header .intro-text {
 }
 /* InfoFold Section */
 #info-fold {
-  background-color: var(--color-fondoOscuro);
+  background: url(../img/background2.svg);
   padding: 100px 0;
+  animation: moveBackground 60s linear infinite alternate-reverse; /* animación */
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0; /* posición inicial */
+  }
+  100% {
+    background-position: 100% 0; /* posición final */
+  }
 }
 #info-fold h3 {
   font-size: 22px;

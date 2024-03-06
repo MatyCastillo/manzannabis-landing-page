@@ -63,17 +63,17 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#ours" className="page-scroll">
-              Lo nuestro
-              </a>
-            </li>
-            <li>
               <a href="#features" className="page-scroll">
               GENÉTICAS VERANO 24
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href="#infoTabs" className="page-scroll">
+              Reprocann
+              </a>
+            </li>
+            <li>
+              <a href="#info-fold" className="page-scroll">
               Soporte Legal
               </a>
             </li>

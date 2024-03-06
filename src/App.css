@@ -1,15 +1,17 @@
 @media screen and (max-width: 400px) {
-  #features {
-    width: 111%;
+  #about {
+    width: 106%;
   }
-  #about,
+  #infoTabs,
+  #info-fold,
+  #features,
   #services,
   #testimonials,
   #team,
   #contact,
-  /* #footer {
-    width: 111%;
-  } */
+  #footer {
+    width: 108%;
+  }
 
   #portfolio {
     width: 110%;

@@ -7603,7 +7603,7 @@ react-dev-utils@^12.0.1:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@*, react-dom@^17.0.1:
+react-dom@*, react-dom@^17.0.1, react-dom@>=16.8.0:
   version "17.0.1"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.1.tgz"
   integrity sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
@@ -7616,6 +7616,11 @@ react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
+
+react-floating-whatsapp@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.npmjs.org/react-floating-whatsapp/-/react-floating-whatsapp-4.0.5.tgz"
+  integrity sha512-KgpzswJ/Z5pKPDeqQDcMDHBgPQonqS6GLCb44HSSUaH4kgYBnigllWjfAC/D7oGvAGglKYpNOWM312Bp1xlC4Q==
 
 react-is@^16.12.0, react-is@^16.13.1, react-is@^16.8.4:
   version "16.13.1"
@@ -7700,7 +7705,7 @@ react-tabs@^4.3.0:
     clsx "^1.1.0"
     prop-types "^15.5.0"
 
-react@*, "react@^16.8.0 || ^17.0.0-0 || ^18.0.0", react@^17.0.1, "react@>= 16", "react@>= 16.3.0", react@17.0.1:
+react@*, "react@^16.8.0 || ^17.0.0-0 || ^18.0.0", react@^17.0.1, "react@>= 16", "react@>= 16.3.0", react@>=16.8.0, react@17.0.1:
   version "17.0.1"
   resolved "https://registry.npmjs.org/react/-/react-17.0.1.tgz"
   integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==

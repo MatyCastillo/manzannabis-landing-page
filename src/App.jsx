@@ -12,6 +12,8 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import FloatingWhatsApp from "react-floating-whatsapp";
+import logo from "./data/logo.png";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -37,6 +39,15 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} />
+      <FloatingWhatsApp
+        phoneNumber={"5491138479173"}
+        chatMessage={"Hola 🤝 \n¿Cómo podemos ayudarte?"}
+        placeholder={"Escribir mensaje..."}
+        darkMode={true}
+        statusMessage={"Normalmente responde en 1 hora"}
+        avatar={logo}
+        accountName={"Manzannabis"}
+      />
     </div>
   );
 };

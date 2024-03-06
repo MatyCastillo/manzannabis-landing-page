@@ -16,7 +16,7 @@
       "Salas de secado",
       "Salas de manipulación"
     ],
-    "Why2": ["Salas de madres y clonado", "Acopio y almacenamientor"]
+    "Why2": ["Salas de madres y clonado", "Acopio y almacenamiento"]
   },
   "InfoTabs": [
     {
@@ -30,12 +30,11 @@
       "paragraph": "La matrícula de ingreso incluye:",
       "list": [
         "Asesoramiento administrativo para completar los formularios REPROCANN",
-        "Entrevista con el Doctor",
-        " Vinculación PACIENTE/CLUB"
+        "Entrevista con el Doctor"
       ],
       "list2": [
         " Contrato de Cesión de Parcela",
-        "Torre de guardado de producto"
+        " Vinculación PACIENTE/CLUB"
       ]
     },
     {
@@ -43,8 +42,7 @@
       "paragraph": "La matrícula de ingreso incluye:",
       "list": [
         " Vinculación PACIENTE/CLUB",
-        " Contrato de Cesión de Parcela",
-        "Torre de guardado de producto"
+        " Contrato de Cesión de Parcela"
       ],
       "list2": []
     }
@@ -184,7 +182,7 @@
   ],
   "Contact": {
     "address": "Manzanares, Pilar, Argentina",
-    "phone": "+54 9 11384791734",
+    "phone": "+54 9 1138479173",
     "email": "alest04@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",

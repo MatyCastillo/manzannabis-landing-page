@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/manzannabis-landing-page/static/css/main.e5e70c70.css",
-    "main.js": "/manzannabis-landing-page/static/js/main.09bda5df.js",
+    "main.css": "/manzannabis-landing-page/static/css/main.bf3d9559.css",
+    "main.js": "/manzannabis-landing-page/static/js/main.73ff9a39.js",
+    "static/media/logo.png": "/manzannabis-landing-page/static/media/logo.00bd0b2c28f2e5056118.png",
     "index.html": "/manzannabis-landing-page/index.html",
-    "main.e5e70c70.css.map": "/manzannabis-landing-page/static/css/main.e5e70c70.css.map",
-    "main.09bda5df.js.map": "/manzannabis-landing-page/static/js/main.09bda5df.js.map"
+    "main.bf3d9559.css.map": "/manzannabis-landing-page/static/css/main.bf3d9559.css.map",
+    "main.73ff9a39.js.map": "/manzannabis-landing-page/static/js/main.73ff9a39.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5e70c70.css",
-    "static/js/main.09bda5df.js"
+    "static/css/main.bf3d9559.css",
+    "static/js/main.73ff9a39.js"
   ]
 }
